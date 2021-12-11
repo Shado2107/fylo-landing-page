@@ -28,7 +28,7 @@ ul {  list-style: none; }
 
 /* Main Content */
 .illustration-container {
-  background-image: url('images/bg-curve-desktop.svg');
+  background-image: url('../images/bg-curve-desktop.svg');
   background-repeat: no-repeat;
   background-position: center top;
   height: 114px;
@@ -81,10 +81,12 @@ ul {  list-style: none; }
 .main-content__text {  font-size: 1.25rem; margin: 7% 0; }
 .main-content__title {  font-size: 2rem; color: hsl(243, 87%, 12%); }
 .section-2 {  background-color: hsl(240, 75%, 98%); padding-top: 0; }
-.section-2 .section-left {  padding-top: 0; margin-top: 0; }
+.section-2 .section-left { 
+     padding-top: 0;
+      margin-top: 0; 
+}
 .section-3 {  background-color: hsl(238, 22%, 44%); color: #fff; }
 .section-3 .main-content__btn {  display: inline-block; width: fit-content; }
-
 .section-3 .main-content__email {
   display: inline-block;
   width: 80%;
@@ -178,6 +180,8 @@ ul {  list-style: none; }
     width: 80%;
     text-align: center;
   }
+
+
 }
 
 /* iPad and similar screens */
@@ -196,7 +200,7 @@ ul {  list-style: none; }
   .header-nav__menu {  font-size: 1rem; }
 
   .illustration-container {
-    background-image: url('images/bg-curve-mobile.svg');
+    background-image: url('../images/bg-curve-mobile.svg');
     height: 53px;
   }
 
